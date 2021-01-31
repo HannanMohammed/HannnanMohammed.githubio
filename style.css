@@ -20,7 +20,6 @@ and (min-width : 1224px) {
 	position: relative;
 	left:700px;
 	font-size: 20px;
-	justify-content: space-between;
 }
 li a:hover{
 	background-color:gray;
@@ -126,6 +125,14 @@ and (max-device-width : 480px) {
 	height: 150px;
 	left: 20px;
 }
+
+h2 a {
+	position: absolute;
+	left: 500px;
+	top:900px;
+	color: black;
+}
+
 p {
 	color:#2680EB;
 	text-align: center;
@@ -229,3 +236,7 @@ input[type="text"] {
 	color:black;
 }
 
+.btn-primary {
+	position: relative;
+	top:15px;
+}
